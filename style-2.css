@@ -1,0 +1,171 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 2rem 0;
+}
+
+.caja{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color: #c78c19;
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-d{
+    font-size: 18px;
+}
+
+.p-p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes-2/bg.jpg);
+    padding: 30px;
+}
+
+.copy{
+    color: white;
+    margin: 20px;
+    font-size: 13px;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.checkbox{
+    margin: 30px 0px;
+}
+
+.select{
+    margin-top: 30px;
+}
+
+.lista-desplegable{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+fieldset legend{
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.enviar{
+    width: 40%;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 40px;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 8px 12px;
+}
